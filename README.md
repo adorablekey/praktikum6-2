@@ -205,6 +205,7 @@ Jika pengguna memasukkan pilihan selain angka 1 hingga 5, program akan menampilk
 # hasil program
 ![Screenshot 2024-12-02 232910](https://github.com/user-attachments/assets/4b30162a-7a5f-4968-8fde-0899fb208e5d)
 ![Screenshot 2024-12-02 233003](https://github.com/user-attachments/assets/bf1b0923-146e-4d89-83de-cd483ca1dd71)
+# Flowchart 
 
 
 
