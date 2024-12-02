@@ -69,9 +69,9 @@
     else:
         print(f"Data mahasiswa {nama} tidak ditemukan.")
 
-daftar_mahasiswa = {}
+     daftar_mahasiswa = {}
 
-if __name__ == "__main__":
+       if __name__ == "__main__":
     while True:
         print("\nMenu:")
         print("1. Tambah data")
