@@ -21,6 +21,8 @@
 # code program
 ![Screenshot 2024-12-02 224253](https://github.com/user-attachments/assets/e92b1c91-8f0e-48b9-af5c-ac4b57ec5d1b)
 # hasil program
+![Screenshot 2024-12-02 231129](https://github.com/user-attachments/assets/833aaa67-d1a8-4f0d-9ecf-7406fdfbeb3d)
+
 
 
 
