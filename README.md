@@ -49,16 +49,16 @@
         for nama, nilai in daftar_mahasiswa.items():
             print(f"{nama}: {nilai}")
 
-def hapus(nama):
-    """Menghapus data mahasiswa berdasarkan nama."""
+     def hapus(nama):
+         """Menghapus data mahasiswa berdasarkan nama."""
     if nama in daftar_mahasiswa:
         del daftar_mahasiswa[nama]
         print(f"Data mahasiswa {nama} berhasil dihapus.")
     else:
         print(f"Data mahasiswa {nama} tidak ditemukan.")
 
-def ubah(nama):
-    """Mengubah data mahasiswa berdasarkan nama."""
+    def ubah(nama):
+         """Mengubah data mahasiswa berdasarkan nama."""
     if nama in daftar_mahasiswa:
         try:
             nilai_baru = int(input(f"Masukkan nilai baru untuk {nama}: "))
