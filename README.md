@@ -151,6 +151,11 @@ Fungsi ubah(nama) yang Anda berikan berfungsi untuk mengubah nilai mahasiswa ber
        
 adalah pernyataan untuk mendeklarasikan sebuah dictionary kosong di Python yang diberi nama daftar_mahasiswa. Dalam konteks program Anda, dictionary ini digunakan untuk menyimpan data mahasiswa, di mana nama mahasiswa menjadi kunci (key) dan nilai mahasiswa (misalnya nilai ujian atau IPK) menjadi nilai (value).
 
+       if __name__ == "__main__":
+    while True:
+
+if __name__ == "__main__" memastikan bahwa kode di dalam blok ini hanya dijalankan jika file ini dieksekusi langsung, bukan ketika diimpor sebagai modul oleh program lain. while True loop tak terbatas yang akan terus berjalan sampai perintah break dijalankan.
+
 
 
 
