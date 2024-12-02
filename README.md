@@ -25,10 +25,11 @@
 # tugas praktikum
 ![image](https://github.com/user-attachments/assets/ee751d3c-83df-4f0a-a2bc-67adc58f8cb9)
 # tugas praktikum.py
+
        def tambah():
-    """Menambahkan data mahasiswa baru ke dalam daftar."""
-    nama = input("Masukkan nama mahasiswa: ")
-    if not nama.strip():
+        """Menambahkan data mahasiswa baru ke dalam daftar."""
+        nama = input("Masukkan nama mahasiswa: ")
+       if not nama.strip():
         print("Nama tidak boleh kosong.")
         return
     try:
