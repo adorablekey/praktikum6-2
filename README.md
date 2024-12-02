@@ -1,4 +1,4 @@
-# praktikum6-2
+# praktikum6-1
 # Nama : keysia nurhayati br panjaitan
 # NIM : 312410350
 # Kelas : TI.24.A4
