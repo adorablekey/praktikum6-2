@@ -156,6 +156,21 @@ adalah pernyataan untuk mendeklarasikan sebuah dictionary kosong di Python yang 
 
 if __name__ == "__main__" memastikan bahwa kode di dalam blok ini hanya dijalankan jika file ini dieksekusi langsung, bukan ketika diimpor sebagai modul oleh program lain. while True loop tak terbatas yang akan terus berjalan sampai perintah break dijalankan.
 
+        print("\nMenu:")
+           print("1. Tambah data")
+           print("2. Tampilkan data")
+           print("3. Hapus data")
+           print("4. Ubah data")
+           print("5. Keluar")
+
+Program mencetak menu dengan lima opsi yang dapat dipilih pengguna tersebut:
+
+1. Tambah data: untuk menambahkan data mahasiswa baru
+2. Tampilkan data: untuk menampilkan semua data mahasiswa yang telah dimasukkan
+3. Hapus data: Menghapus data mahasiswa berdasarkan nama
+4. Ubah data: Mengubah nilai mahasiswa berdasarkan nama
+5. Keluar: Keluar dari program
+
 
 
 
