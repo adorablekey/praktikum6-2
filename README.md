@@ -123,6 +123,15 @@ Meminta pengguna untuk memasukkan nama mahasiswa. Jika nama kosong (hanya spasi)
             print(f"{nama}: {nilai}")
 Fungsi tampilkan() yang Anda berikan berfungsi untuk menampilkan semua data mahasiswa yang ada dalam sebuah struktur data, yaitu daftar_mahasiswa
 
+      def hapus(nama):
+         """Menghapus data mahasiswa berdasarkan nama."""
+    if nama in daftar_mahasiswa:
+        del daftar_mahasiswa[nama]
+        print(f"Data mahasiswa {nama} berhasil dihapus.")
+    else:
+        print(f"Data mahasiswa {nama} tidak ditemukan.")
+
+Fungsi hapus(nama) ini memeriksa apakah nama yang diberikan ada dalam dictionary daftar_mahasiswa. Jika ada, fungsi menghapus data mahasiswa tersebut, dan jika tidak ada, fungsi akan memberitahukan bahwa data mahasiswa tersebut tidak ditemukan
 
 
 
