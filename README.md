@@ -133,6 +133,19 @@ Fungsi tampilkan() yang Anda berikan berfungsi untuk menampilkan semua data maha
 
 Fungsi hapus(nama) ini memeriksa apakah nama yang diberikan ada dalam dictionary daftar_mahasiswa. Jika ada, fungsi menghapus data mahasiswa tersebut, dan jika tidak ada, fungsi akan memberitahukan bahwa data mahasiswa tersebut tidak ditemukan
 
+        def ubah(nama):
+          """Mengubah data mahasiswa berdasarkan nama."""
+    if nama in daftar_mahasiswa:
+        try:
+            nilai_baru = int(input(f"Masukkan nilai baru untuk {nama}: "))
+            daftar_mahasiswa[nama] = nilai_baru
+            print(f"Data mahasiswa {nama} berhasil diubah.")
+        except ValueError:
+            print("Nilai harus berupa angka.")
+    else:
+        print(f"Data mahasiswa {nama} tidak ditemukan.")
+        
+Fungsi ubah(nama) yang Anda berikan berfungsi untuk mengubah nilai mahasiswa berdasarkan nama yang diberikan. Fungsi ini mencari nama mahasiswa dalam dictionary daftar_mahasiswa, dan jika nama tersebut ditemukan, pengguna diminta untuk memasukkan nilai baru. Berikut penjelasan rinci tentang bagian-bagian dari fungsi tersebut:
 
 
 
