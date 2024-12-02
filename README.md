@@ -185,7 +185,7 @@ Jika pengguna memilih 1, maka fungsi akan tambah(), Jika pengguna memilih 2, mak
         elif pilihan == '3':
              nama = input("Masukkan nama mahasiswa yang ingin dihapus: ")
             hapus(nama)
-elif pilihan == '4':
+       elif pilihan == '4':
            nama = input("Masukkan nama mahasiswa yang ingin diubah: ")
              ubah(nama)
           
