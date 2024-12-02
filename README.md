@@ -24,6 +24,7 @@
 ![Screenshot 2024-12-02 231129](https://github.com/user-attachments/assets/833aaa67-d1a8-4f0d-9ecf-7406fdfbeb3d)
 # tugas praktikum
 ![image](https://github.com/user-attachments/assets/ee751d3c-83df-4f0a-a2bc-67adc58f8cb9)
+# tugas praktikum.py
 
 
 
