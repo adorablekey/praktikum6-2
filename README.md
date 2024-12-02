@@ -200,7 +200,8 @@ Jika pengguna memilih 5, program akan mencetak pesan "Terima kasih!" dan keluar 
              print("Pilihan tidak valid.")
 
 Jika pengguna memasukkan pilihan selain angka 1 hingga 5, program akan menampilkan pesan "Pilihan tidak valid." dan kembali menampilkan menu.
+# code program
 ![image](https://github.com/user-attachments/assets/7ac872e2-bd7a-4a41-8ead-7c9e3c915f9a)
-
+# hasil program
 
 
