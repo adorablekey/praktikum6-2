@@ -40,9 +40,9 @@
     daftar_mahasiswa[nama] = nilai
     print("Data mahasiswa berhasil ditambahkan.")
 
-def tampilkan():
-    """Menampilkan semua data mahasiswa."""
-    if not daftar_mahasiswa:
+      def tampilkan():
+          """Menampilkan semua data mahasiswa."""
+        if not daftar_mahasiswa:
         print("Daftar mahasiswa kosong.")
     else:
         print("Daftar Mahasiswa:")
