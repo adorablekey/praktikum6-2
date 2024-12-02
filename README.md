@@ -99,6 +99,8 @@
             print("Pilihan tidak valid.")
 # penjelasan code
 
+Meminta pengguna untuk memasukkan nama mahasiswa. Jika nama kosong (hanya spasi), program akan mencetak pesan kesalahan dan keluar dari fungsi, menggunakan try-except untuk mencoba mengonversi nilai yang dimasukkan menjadi integer. Jika gagal, program mencetak pesan kesalahan, jika semua input valid, data mahasiswa (nama dan nilai) ditambahkan ke dalam dictionary daftar_mahasiswa, dan program mencetak pesan konfirmasi  dan Secara keseluruhan, kode ini bertujuan untuk memastikan bahwa data mahasiswa yang dimasukkan valid (nama tidak kosong, nilai berupa angka), dan jika valid, data akan disimpan dalam dictionary dan program akan mengonfirmasi keberhasilan penambahan data tersebut.
+
 
 
 
