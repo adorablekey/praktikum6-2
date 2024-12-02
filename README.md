@@ -147,6 +147,10 @@ Fungsi hapus(nama) ini memeriksa apakah nama yang diberikan ada dalam dictionary
         
 Fungsi ubah(nama) yang Anda berikan berfungsi untuk mengubah nilai mahasiswa berdasarkan nama yang diberikan. Fungsi ini mencari nama mahasiswa dalam dictionary daftar_mahasiswa, dan jika nama tersebut ditemukan, pengguna diminta untuk memasukkan nilai baru. Berikut penjelasan rinci tentang bagian-bagian dari fungsi tersebut:
 
+       daftar_mahasiswa = {}
+       
+adalah pernyataan untuk mendeklarasikan sebuah dictionary kosong di Python yang diberi nama daftar_mahasiswa. Dalam konteks program Anda, dictionary ini digunakan untuk menyimpan data mahasiswa, di mana nama mahasiswa menjadi kunci (key) dan nilai mahasiswa (misalnya nilai ujian atau IPK) menjadi nilai (value).
+
 
 
 
