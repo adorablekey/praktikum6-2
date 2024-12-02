@@ -171,6 +171,24 @@ Program mencetak menu dengan lima opsi yang dapat dipilih pengguna tersebut:
 4. Ubah data: Mengubah nilai mahasiswa berdasarkan nama
 5. Keluar: Keluar dari program
 
+          pilihan = input("Pilih menu (1-5): ")
+   
+ Program meminta input dari pengguna untuk memilih salah satu menu (1-5). 
 
+          if pilihan == '1':
+    tambah()
+           elif pilihan == '2':
+    tampilkan()
+
+Jika pengguna memilih 1, maka fungsi akan tambah(), Jika pengguna memilih 2, maka fungsi akan tampilkan() untuk menampilkan semua data mahasiswa yang ada dalam daftar_mahasiswa
+
+        elif pilihan == '3':
+             nama = input("Masukkan nama mahasiswa yang ingin dihapus: ")
+            hapus(nama)
+elif pilihan == '4':
+    nama = input("Masukkan nama mahasiswa yang ingin diubah: ")
+          ubah(nama)
+          
+Jika pengguna memilih 3, program akan meminta input nama mahasiswa yang ingin dihapus, Jika pengguna memilih 4, program akan meminta input nama mahasiswa yang ingin diubah.
 
 
