@@ -191,4 +191,14 @@ Jika pengguna memilih 1, maka fungsi akan tambah(), Jika pengguna memilih 2, mak
           
 Jika pengguna memilih 3, program akan meminta input nama mahasiswa yang ingin dihapus, Jika pengguna memilih 4, program akan meminta input nama mahasiswa yang ingin diubah.
 
+        elif pilihan == '5':
+            print("Terima kasih!")
+           break
+Jika pengguna memilih 5, program akan mencetak pesan "Terima kasih!" dan keluar dari loop utama dengan menggunakan break.
+
+        else:
+             print("Pilihan tidak valid.")
+
+Jika pengguna memasukkan pilihan selain angka 1 hingga 5, program akan menampilkan pesan "Pilihan tidak valid." dan kembali menampilkan menu.
+
 
