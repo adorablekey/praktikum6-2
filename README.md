@@ -97,6 +97,8 @@
             break
         else:
             print("Pilihan tidak valid.")
+# penjelasan code
+
 
 
 
