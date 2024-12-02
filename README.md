@@ -112,7 +112,15 @@
     print("Data mahasiswa berhasil ditambahkan.")
 
 Meminta pengguna untuk memasukkan nama mahasiswa. Jika nama kosong (hanya spasi), program akan mencetak pesan kesalahan dan keluar dari fungsi, menggunakan try-except untuk mencoba mengonversi nilai yang dimasukkan menjadi integer. Jika gagal, program mencetak pesan kesalahan, jika semua input valid, data mahasiswa (nama dan nilai) ditambahkan ke dalam dictionary daftar_mahasiswa, dan program mencetak pesan konfirmasi  dan Secara keseluruhan, kode ini bertujuan untuk memastikan bahwa data mahasiswa yang dimasukkan valid (nama tidak kosong, nilai berupa angka), dan jika valid, data akan disimpan dalam dictionary dan program akan mengonfirmasi keberhasilan penambahan data tersebut.
-
+       def tampilkan():
+    """Menampilkan semua data mahasiswa."""
+    if not daftar_mahasiswa:
+        print("Daftar mahasiswa kosong.")
+    else:
+        print("Daftar Mahasiswa:")
+        for nama, nilai in daftar_mahasiswa.items():
+            print(f"{nama}: {nilai}")
+Fungsi tampilkan() yang Anda berikan berfungsi untuk menampilkan semua data mahasiswa yang ada dalam sebuah struktur data, yaitu daftar_mahasiswa
 
 
 
